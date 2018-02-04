@@ -1,0 +1,11 @@
+front_homepage:
+    path:     /
+    defaults: { _controller: FrontBundle:Default:index }
+
+Blog:
+    path:     /Blog
+    defaults: { _controller: FrontBundle:Default:Blog }
+
+Members:
+    path:     /Members
+    defaults: { _controller: FrontBundle:Default:Members }
