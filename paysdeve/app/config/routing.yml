@@ -1,0 +1,7 @@
+pays_deve_back:
+    resource: "@PaysDeveBackBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation

@@ -1,0 +1,18 @@
+pays_deve_back_defaultpage:
+    path:     /
+    defaults: { _controller: PaysDeveBackBundle:Default:home }
+
+pays_deve_back_homepage:
+    path:     /home
+    defaults: { _controller: PaysDeveBackBundle:Default:home }
+
+pays_deve_back_Gaming:
+    path:     /Gaming
+    defaults: { _controller: PaysDeveBackBundle:Default:Gaming }
+
+pays_deve_back_Users:
+    path:     /User
+    defaults: { _controller: PaysDeveBackBundle:Default:User }
+
+
+
